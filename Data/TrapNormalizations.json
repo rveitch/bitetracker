@@ -1,0 +1,1990 @@
+var trapNs = [{
+
+SiteId:"12th Ave N",
+"properties":
+[
+  {
+    "Week Number":"21",
+    "Average of Females":6.494642857,
+    "Max of Females":35,
+    "StdDev of Females":12.72647677
+  },
+  {
+    "Week Number":"22",
+    "Average of Females":2.125862069,
+    "Max of Females":43,
+    "StdDev of Females":7.985104668
+  },
+  {
+    "Week Number":"23",
+    "Average of Females":3.650857143,
+    "Max of Females":14,
+    "StdDev of Females":4.473602556
+  },
+  {
+    "Week Number":"24",
+    "Average of Females":9.062857143,
+    "Max of Females":32,
+    "StdDev of Females":8.355612616
+  },
+  {
+    "Week Number":"25",
+    "Average of Females":27.64823529,
+    "Max of Females":120.33,
+    "StdDev of Females":36.7137226
+  },
+  {
+    "Week Number":"26",
+    "Average of Females":19.61114286,
+    "Max of Females":96,
+    "StdDev of Females":18.90650196
+  },
+  {
+    "Week Number":"27",
+    "Average of Females":39.18285714,
+    "Max of Females":99.27,
+    "StdDev of Females":29.51658692
+  },
+  {
+    "Week Number":"28",
+    "Average of Females":54.94657143,
+    "Max of Females":309,
+    "StdDev of Females":68.83730952
+  },
+  {
+    "Week Number":"29",
+    "Average of Females":20.83,
+    "Max of Females":84.32,
+    "StdDev of Females":24.80745701
+  },
+  {
+    "Week Number":"30",
+    "Average of Females":25.29702703,
+    "Max of Females":100,
+    "StdDev of Females":25.11486322
+  },
+  {
+    "Week Number":"31",
+    "Average of Females":28.59333333,
+    "Max of Females":179,
+    "StdDev of Females":45.41343941
+  },
+  {
+    "Week Number":"32",
+    "Average of Females":11.97657143,
+    "Max of Females":65.32,
+    "StdDev of Females":11.16001606
+  },
+  {
+    "Week Number":"33",
+    "Average of Females":31.35228571,
+    "Max of Females":362,
+    "StdDev of Females":71.70224966
+  },
+  {
+    "Week Number":"34",
+    "Average of Females":14.39125,
+    "Max of Females":99,
+    "StdDev of Females":23.7170986
+  },
+  {
+    "Week Number":"35",
+    "Average of Females":14.36178571,
+    "Max of Females":118,
+    "StdDev of Females":27.29581016
+  },
+  {
+    "Week Number":"36",
+    "Average of Females":8.851851852,
+    "Max of Females":65,
+    "StdDev of Females":12.91828223
+  },
+  {
+    "Week Number":"37",
+    "Average of Females":6.518571429,
+    "Max of Females":30,
+    "StdDev of Females":6.079280363
+  },
+  {
+    "Week Number":"38",
+    "Average of Females":16.073,
+    "Max of Females":87,
+    "StdDev of Females":25.31026318
+  },
+  {
+    "Week Number":"Grand Total",
+    "Average of Females":19.68784722,
+    "Max of Females":362,
+    "StdDev of Females":35.05756947
+  }
+]
+},
+{
+"SiteId":"16th 1/2 St",
+"properties": [
+  {
+    "Week Number":"21",
+    "Average of Females":1.305357143,
+    "Max of Females":7.25,
+    "StdDev of Females":2.5226874
+  },
+  {
+    "Week Number":"22",
+    "Average of Females":1.246551724,
+    "Max of Females":14,
+    "StdDev of Females":2.993771243
+  },
+  {
+    "Week Number":"23",
+    "Average of Females":1.692,
+    "Max of Females":21,
+    "StdDev of Females":4.026879393
+  },
+  {
+    "Week Number":"24",
+    "Average of Females":3.979714286,
+    "Max of Females":20,
+    "StdDev of Females":4.512905993
+  },
+  {
+    "Week Number":"25",
+    "Average of Females":9.434,
+    "Max of Females":60,
+    "StdDev of Females":14.30498848
+  },
+  {
+    "Week Number":"26",
+    "Average of Females":5.636,
+    "Max of Females":22,
+    "StdDev of Females":6.011277245
+  },
+  {
+    "Week Number":"27",
+    "Average of Females":10.53028571,
+    "Max of Females":37.9,
+    "StdDev of Females":10.4540185
+  },
+  {
+    "Week Number":"28",
+    "Average of Females":10.088,
+    "Max of Females":31,
+    "StdDev of Females":10.64258394
+  },
+  {
+    "Week Number":"29",
+    "Average of Females":7.442857143,
+    "Max of Females":30,
+    "StdDev of Females":8.603932607
+  },
+  {
+    "Week Number":"30",
+    "Average of Females":12.20382353,
+    "Max of Females":51,
+    "StdDev of Females":15.78248147
+  },
+  {
+    "Week Number":"31",
+    "Average of Females":4.084473684,
+    "Max of Females":17,
+    "StdDev of Females":3.451189139
+  },
+  {
+    "Week Number":"32",
+    "Average of Females":3.151428571,
+    "Max of Females":16,
+    "StdDev of Females":3.232669761
+  },
+  {
+    "Week Number":"33",
+    "Average of Females":2.666176471,
+    "Max of Females":13,
+    "StdDev of Females":3.012004281
+  },
+  {
+    "Week Number":"34",
+    "Average of Females":1.8584375,
+    "Max of Females":11,
+    "StdDev of Females":2.159325028
+  },
+  {
+    "Week Number":"35",
+    "Average of Females":1.421071429,
+    "Max of Females":5,
+    "StdDev of Females":1.358442298
+  },
+  {
+    "Week Number":"36",
+    "Average of Females":2.889285714,
+    "Max of Females":13.3,
+    "StdDev of Females":3.279578709
+  },
+  {
+    "Week Number":"37",
+    "Average of Females":2.375,
+    "Max of Females":13.3,
+    "StdDev of Females":3.811107062
+  },
+  {
+    "Week Number":"38",
+    "Average of Females":4.825,
+    "Max of Females":21,
+    "StdDev of Females":6.415493171
+  },
+  {
+    "Week Number":"Grand Total",
+    "Average of Females":5.000086356,
+    "Max of Females":60,
+    "StdDev of Females":8.119165064
+  }
+]
+},{
+"SiteId":"22nd Ave N",
+"properties": [
+  {
+    "Week Number":"21",
+    "Average of Females":4.263428571,
+    "Max of Females":22.29,
+    "StdDev of Females":7.108613227
+  },
+  {
+    "Week Number":"22",
+    "Average of Females":7.961428571,
+    "Max of Females":42.5,
+    "StdDev of Females":12.71071275
+  },
+  {
+    "Week Number":"23",
+    "Average of Females":9.018,
+    "Max of Females":42.5,
+    "StdDev of Females":13.3399488
+  },
+  {
+    "Week Number":"24",
+    "Average of Females":17.27542857,
+    "Max of Females":134,
+    "StdDev of Females":24.59034595
+  },
+  {
+    "Week Number":"25",
+    "Average of Females":39.14257143,
+    "Max of Females":290,
+    "StdDev of Females":57.35730162
+  },
+  {
+    "Week Number":"26",
+    "Average of Females":34.41914286,
+    "Max of Females":222,
+    "StdDev of Females":45.24732026
+  },
+  {
+    "Week Number":"27",
+    "Average of Females":34.138,
+    "Max of Females":119,
+    "StdDev of Females":27.43535437
+  },
+  {
+    "Week Number":"28",
+    "Average of Females":44.10742857,
+    "Max of Females":183,
+    "StdDev of Females":37.40135798
+  },
+  {
+    "Week Number":"29",
+    "Average of Females":21.74085714,
+    "Max of Females":85,
+    "StdDev of Females":19.08763095
+  },
+  {
+    "Week Number":"30",
+    "Average of Females":18.14578947,
+    "Max of Females":77.98,
+    "StdDev of Females":18.44768595
+  },
+  {
+    "Week Number":"31",
+    "Average of Females":27.49657143,
+    "Max of Females":164,
+    "StdDev of Females":40.90780516
+  },
+  {
+    "Week Number":"32",
+    "Average of Females":17.16485714,
+    "Max of Females":130.28,
+    "StdDev of Females":27.93653968
+  },
+  {
+    "Week Number":"33",
+    "Average of Females":26.68264706,
+    "Max of Females":130.28,
+    "StdDev of Females":44.20469503
+  },
+  {
+    "Week Number":"34",
+    "Average of Females":17.436875,
+    "Max of Females":86,
+    "StdDev of Females":24.59736223
+  },
+  {
+    "Week Number":"35",
+    "Average of Females":26.90321429,
+    "Max of Females":114.6,
+    "StdDev of Females":35.19135153
+  },
+  {
+    "Week Number":"36",
+    "Average of Females":20.5975,
+    "Max of Females":123,
+    "StdDev of Females":36.64004676
+  },
+  {
+    "Week Number":"37",
+    "Average of Females":8.763571429,
+    "Max of Females":55.65,
+    "StdDev of Females":13.50123594
+  },
+  {
+    "Week Number":"38",
+    "Average of Females":18.782,
+    "Max of Females":55.65,
+    "StdDev of Females":22.47502722
+  },
+  {
+    "Week Number":"39",
+    "Average of Females":49,
+    "Max of Females":134,
+    "StdDev of Females":40.7267316
+  },
+  {
+    "Week Number":"40",
+    "Average of Females":6.928571429,
+    "Max of Females":16,
+    "StdDev of Females":4.744984821
+  },
+  {
+    "Week Number":"41",
+    "Average of Females":34.375,
+    "Max of Females":101,
+    "StdDev of Females":45.98391929
+  },
+  {
+    "Week Number":"Grand Total",
+    "Average of Females":20.60550681,
+    "Max of Females":290,
+    "StdDev of Females":32.17316291
+  }
+]
+},{
+"SiteId":"25th 1/2 St",
+"properties": [
+  {
+    "Week Number":"21",
+    "Average of Females":6.982142857,
+    "Max of Females":28.25,
+    "StdDev of Females":10.62533846
+  },
+  {
+    "Week Number":"22",
+    "Average of Females":10.41071429,
+    "Max of Females":92,
+    "StdDev of Females":19.58873617
+  },
+  {
+    "Week Number":"23",
+    "Average of Females":5.532571429,
+    "Max of Females":21,
+    "StdDev of Females":6.333166359
+  },
+  {
+    "Week Number":"24",
+    "Average of Females":11.81628571,
+    "Max of Females":78,
+    "StdDev of Females":17.22262894
+  },
+  {
+    "Week Number":"25",
+    "Average of Females":24.045,
+    "Max of Females":155,
+    "StdDev of Females":34.03351158
+  },
+  {
+    "Week Number":"26",
+    "Average of Females":25.24885714,
+    "Max of Females":130,
+    "StdDev of Females":31.15997308
+  },
+  {
+    "Week Number":"27",
+    "Average of Females":33.70714286,
+    "Max of Females":147,
+    "StdDev of Females":30.49053224
+  },
+  {
+    "Week Number":"28",
+    "Average of Females":34.17085714,
+    "Max of Females":80,
+    "StdDev of Females":27.27545054
+  },
+  {
+    "Week Number":"29",
+    "Average of Females":16.34542857,
+    "Max of Females":75,
+    "StdDev of Females":17.55830377
+  },
+  {
+    "Week Number":"30",
+    "Average of Females":20.76114286,
+    "Max of Females":87,
+    "StdDev of Females":19.49702628
+  },
+  {
+    "Week Number":"31",
+    "Average of Females":12.43736842,
+    "Max of Females":69,
+    "StdDev of Females":16.83684982
+  },
+  {
+    "Week Number":"32",
+    "Average of Females":17.00057143,
+    "Max of Females":115.25,
+    "StdDev of Females":26.8756764
+  },
+  {
+    "Week Number":"33",
+    "Average of Females":19.71114286,
+    "Max of Females":142,
+    "StdDev of Females":37.68978772
+  },
+  {
+    "Week Number":"34",
+    "Average of Females":9.7884375,
+    "Max of Females":79,
+    "StdDev of Females":16.50601867
+  },
+  {
+    "Week Number":"35",
+    "Average of Females":14.65035714,
+    "Max of Females":176,
+    "StdDev of Females":33.40107167
+  },
+  {
+    "Week Number":"36",
+    "Average of Females":22.15214286,
+    "Max of Females":176,
+    "StdDev of Females":45.37922411
+  },
+  {
+    "Week Number":"37",
+    "Average of Females":5.047857143,
+    "Max of Females":22.2,
+    "StdDev of Females":7.02312179
+  },
+  {
+    "Week Number":"38",
+    "Average of Females":7.64,
+    "Max of Females":25,
+    "StdDev of Females":8.103584002
+  },
+  {
+    "Week Number":"Grand Total",
+    "Average of Females":17.03848014,
+    "Max of Females":176,
+    "StdDev of Females":26.30975044
+  }
+]
+},{
+"SiteId":"34th 1/2 Ave",
+"properties": [
+  {
+    "Week Number":"21",
+    "Average of Females":3.841785714,
+    "Max of Females":15.5,
+    "StdDev of Females":5.61782682
+  },
+  {
+    "Week Number":"22",
+    "Average of Females":4.987931034,
+    "Max of Females":39,
+    "StdDev of Females":8.422362402
+  },
+  {
+    "Week Number":"23",
+    "Average of Females":3.596,
+    "Max of Females":12.5,
+    "StdDev of Females":3.897697058
+  },
+  {
+    "Week Number":"24",
+    "Average of Females":4.740967742,
+    "Max of Females":27,
+    "StdDev of Females":7.241424517
+  },
+  {
+    "Week Number":"25",
+    "Average of Females":18.00617647,
+    "Max of Females":79,
+    "StdDev of Females":24.39694045
+  },
+  {
+    "Week Number":"26",
+    "Average of Females":11.04371429,
+    "Max of Females":41,
+    "StdDev of Females":10.35292317
+  },
+  {
+    "Week Number":"27",
+    "Average of Females":10.88764706,
+    "Max of Females":33,
+    "StdDev of Females":9.99301667
+  },
+  {
+    "Week Number":"28",
+    "Average of Females":12.4565625,
+    "Max of Females":33,
+    "StdDev of Females":11.61582975
+  },
+  {
+    "Week Number":"29",
+    "Average of Females":7.431764706,
+    "Max of Females":24.31,
+    "StdDev of Females":7.252718809
+  },
+  {
+    "Week Number":"30",
+    "Average of Females":11.11571429,
+    "Max of Females":43,
+    "StdDev of Females":12.34535547
+  },
+  {
+    "Week Number":"31",
+    "Average of Females":8.653783784,
+    "Max of Females":96,
+    "StdDev of Females":18.50822825
+  },
+  {
+    "Week Number":"32",
+    "Average of Females":8.652571429,
+    "Max of Females":81.26,
+    "StdDev of Females":17.30976133
+  },
+  {
+    "Week Number":"33",
+    "Average of Females":11.72142857,
+    "Max of Females":81.26,
+    "StdDev of Females":23.60463154
+  },
+  {
+    "Week Number":"34",
+    "Average of Females":6.620625,
+    "Max of Females":32.25,
+    "StdDev of Females":12.31001767
+  },
+  {
+    "Week Number":"35",
+    "Average of Females":9.253214286,
+    "Max of Females":80,
+    "StdDev of Females":19.4868001
+  },
+  {
+    "Week Number":"36",
+    "Average of Females":7.004230769,
+    "Max of Females":60.59,
+    "StdDev of Females":16.45481648
+  },
+  {
+    "Week Number":"37",
+    "Average of Females":3.258571429,
+    "Max of Females":19.99,
+    "StdDev of Females":4.678261559
+  },
+  {
+    "Week Number":"38",
+    "Average of Females":6.183157895,
+    "Max of Females":19.99,
+    "StdDev of Females":7.483046804
+  },
+  {
+    "Week Number":"Grand Total",
+    "Average of Females":8.517407407,
+    "Max of Females":96,
+    "StdDev of Females":14.27468257
+  }
+]
+},{
+"SiteId":"49th St",
+"properties": [
+  {
+    "Week Number":"21",
+    "Average of Females":3.574642857,
+    "Max of Females":20.75,
+    "StdDev of Females":7.211874715
+  },
+  {
+    "Week Number":"22",
+    "Average of Females":3.740689655,
+    "Max of Females":17,
+    "StdDev of Females":5.103557534
+  },
+  {
+    "Week Number":"23",
+    "Average of Females":3.868,
+    "Max of Females":16,
+    "StdDev of Females":4.392062895
+  },
+  {
+    "Week Number":"24",
+    "Average of Females":12.45542857,
+    "Max of Females":62.65,
+    "StdDev of Females":16.33420074
+  },
+  {
+    "Week Number":"25",
+    "Average of Females":25.32885714,
+    "Max of Females":131,
+    "StdDev of Females":31.8135218
+  },
+  {
+    "Week Number":"26",
+    "Average of Females":22.88228571,
+    "Max of Females":86.33,
+    "StdDev of Females":22.30682342
+  },
+  {
+    "Week Number":"27",
+    "Average of Females":20.28914286,
+    "Max of Females":59,
+    "StdDev of Females":16.51020279
+  },
+  {
+    "Week Number":"28",
+    "Average of Females":22.21514286,
+    "Max of Females":51,
+    "StdDev of Females":14.87835407
+  },
+  {
+    "Week Number":"29",
+    "Average of Females":14.25868421,
+    "Max of Females":45.99,
+    "StdDev of Females":13.58948206
+  },
+  {
+    "Week Number":"30",
+    "Average of Females":15.18114286,
+    "Max of Females":74,
+    "StdDev of Females":15.00463179
+  },
+  {
+    "Week Number":"31",
+    "Average of Females":11.86,
+    "Max of Females":81,
+    "StdDev of Females":17.51148497
+  },
+  {
+    "Week Number":"32",
+    "Average of Females":12.17285714,
+    "Max of Females":70.91,
+    "StdDev of Females":16.90772353
+  },
+  {
+    "Week Number":"33",
+    "Average of Females":13.19857143,
+    "Max of Females":70.91,
+    "StdDev of Females":19.75986174
+  },
+  {
+    "Week Number":"34",
+    "Average of Females":7.6128125,
+    "Max of Females":28,
+    "StdDev of Females":7.917878599
+  },
+  {
+    "Week Number":"35",
+    "Average of Females":12.03178571,
+    "Max of Females":91,
+    "StdDev of Females":18.50127624
+  },
+  {
+    "Week Number":"36",
+    "Average of Females":11.7225,
+    "Max of Females":69,
+    "StdDev of Females":15.82463706
+  },
+  {
+    "Week Number":"37",
+    "Average of Females":6.559259259,
+    "Max of Females":25.75,
+    "StdDev of Females":6.361709933
+  },
+  {
+    "Week Number":"38",
+    "Average of Females":8.970588235,
+    "Max of Females":25.75,
+    "StdDev of Females":9.278201247
+  },
+  {
+    "Week Number":"Grand Total",
+    "Average of Females":13.1187695,
+    "Max of Females":131,
+    "StdDev of Females":17.30190405
+  }
+]
+},
+{
+"SiteId":"Charleswood",
+"properties":
+[
+  {
+    "Week Number":"20",
+    "Average of Females":0.053571429,
+    "Max of Females":0.5,
+    "StdDev of Females":0.157485197
+  },
+  {
+    "Week Number":"21",
+    "Average of Females":1.239285714,
+    "Max of Females":7.8,
+    "StdDev of Females":2.741024313
+  },
+  {
+    "Week Number":"22",
+    "Average of Females":27.0896875,
+    "Max of Females":165,
+    "StdDev of Females":50.20338104
+  },
+  {
+    "Week Number":"23",
+    "Average of Females":32.08228571,
+    "Max of Females":165,
+    "StdDev of Females":43.80573425
+  },
+  {
+    "Week Number":"24",
+    "Average of Females":64.01657143,
+    "Max of Females":408,
+    "StdDev of Females":95.70336465
+  },
+  {
+    "Week Number":"25",
+    "Average of Females":157.9571429,
+    "Max of Females":740,
+    "StdDev of Females":197.7366646
+  },
+  {
+    "Week Number":"26",
+    "Average of Females":135.616,
+    "Max of Females":533,
+    "StdDev of Females":134.9821899
+  },
+  {
+    "Week Number":"27",
+    "Average of Females":144.5123529,
+    "Max of Females":760,
+    "StdDev of Females":152.7519505
+  },
+  {
+    "Week Number":"28",
+    "Average of Females":170.5654286,
+    "Max of Females":527,
+    "StdDev of Females":143.9355224
+  },
+  {
+    "Week Number":"29",
+    "Average of Females":109.4564516,
+    "Max of Females":377,
+    "StdDev of Females":87.08179242
+  },
+  {
+    "Week Number":"30",
+    "Average of Females":110.6611111,
+    "Max of Females":449,
+    "StdDev of Females":122.4227889
+  },
+  {
+    "Week Number":"31",
+    "Average of Females":154.6914286,
+    "Max of Females":969,
+    "StdDev of Females":265.1736865
+  },
+  {
+    "Week Number":"32",
+    "Average of Females":138.43,
+    "Max of Females":1103.9,
+    "StdDev of Females":282.9144539
+  },
+  {
+    "Week Number":"33",
+    "Average of Females":200.6962963,
+    "Max of Females":1103.9,
+    "StdDev of Females":281.1687276
+  },
+  {
+    "Week Number":"34",
+    "Average of Females":141.1733333,
+    "Max of Females":386,
+    "StdDev of Females":130.943176
+  },
+  {
+    "Week Number":"35",
+    "Average of Females":319.4414286,
+    "Max of Females":1640,
+    "StdDev of Females":427.8242182
+  },
+  {
+    "Week Number":"36",
+    "Average of Females":138.4952381,
+    "Max of Females":892.6,
+    "StdDev of Females":233.1189079
+  },
+  {
+    "Week Number":"37",
+    "Average of Females":41.3445,
+    "Max of Females":127,
+    "StdDev of Females":46.28412442
+  },
+  {
+    "Week Number":"38",
+    "Average of Females":69.299,
+    "Max of Females":293,
+    "StdDev of Females":105.3022349
+  },
+  {
+    "Week Number":"Grand Total",
+    "Average of Females":107.6549548,
+    "Max of Females":1640,
+    "StdDev of Females":185.1523006
+  }
+]
+},
+{
+"SiteId":"Eagle Run",
+"properties":
+[
+  {
+    "Week Number":"21",
+    "Average of Females":0.355357143,
+    "Max of Females":2.4,
+    "StdDev of Females":0.74365704
+  },
+  {
+    "Week Number":"22",
+    "Average of Females":1.108928571,
+    "Max of Females":13,
+    "StdDev of Females":2.621317649
+  },
+  {
+    "Week Number":"23",
+    "Average of Females":4.190357143,
+    "Max of Females":25.67,
+    "StdDev of Females":6.597993231
+  },
+  {
+    "Week Number":"24",
+    "Average of Females":13.44785714,
+    "Max of Females":81,
+    "StdDev of Females":16.82630928
+  },
+  {
+    "Week Number":"25",
+    "Average of Females":75.15071429,
+    "Max of Females":408,
+    "StdDev of Females":120.8866289
+  },
+  {
+    "Week Number":"26",
+    "Average of Females":68.09892857,
+    "Max of Females":516,
+    "StdDev of Females":128.0458342
+  },
+  {
+    "Week Number":"27",
+    "Average of Females":131.1717857,
+    "Max of Females":533,
+    "StdDev of Females":143.7350117
+  },
+  {
+    "Week Number":"28",
+    "Average of Females":122.9285714,
+    "Max of Females":527,
+    "StdDev of Females":162.8496388
+  },
+  {
+    "Week Number":"29",
+    "Average of Females":83.96964286,
+    "Max of Females":377,
+    "StdDev of Females":103.4571369
+  },
+  {
+    "Week Number":"30",
+    "Average of Females":97.72357143,
+    "Max of Females":449,
+    "StdDev of Females":119.1527067
+  },
+  {
+    "Week Number":"31",
+    "Average of Females":125.1703571,
+    "Max of Females":969,
+    "StdDev of Females":267.2138191
+  },
+  {
+    "Week Number":"32",
+    "Average of Females":31.26857143,
+    "Max of Females":105,
+    "StdDev of Females":24.06799192
+  },
+  {
+    "Week Number":"33",
+    "Average of Females":122.7688,
+    "Max of Females":730,
+    "StdDev of Females":214.8326065
+  },
+  {
+    "Week Number":"34",
+    "Average of Females":77.7176,
+    "Max of Females":386,
+    "StdDev of Females":118.9613932
+  },
+  {
+    "Week Number":"35",
+    "Average of Females":57.98,
+    "Max of Females":344,
+    "StdDev of Females":84.16513607
+  },
+  {
+    "Week Number":"36",
+    "Average of Females":18.54857143,
+    "Max of Females":73.97,
+    "StdDev of Females":18.09582667
+  },
+  {
+    "Week Number":"37",
+    "Average of Females":9.997619048,
+    "Max of Females":39,
+    "StdDev of Females":11.69072449
+  },
+  {
+    "Week Number":"38",
+    "Average of Females":4.23,
+    "Max of Females":18.67,
+    "StdDev of Females":4.953722506
+  },
+  {
+    "Week Number":"Grand Total",
+    "Average of Females":55.69099404,
+    "Max of Females":969,
+    "StdDev of Females":122.3264523
+  }
+]
+},
+{
+"SiteId":"Fargo Country Club",
+"properties":
+[
+  {
+    "Week Number":"21",
+    "Average of Females":0.489285714,
+    "Max of Females":2.4,
+    "StdDev of Females":0.806840792
+  },
+  {
+    "Week Number":"22",
+    "Average of Females":9.626666667,
+    "Max of Females":91.5,
+    "StdDev of Females":22.96949902
+  },
+  {
+    "Week Number":"23",
+    "Average of Females":20.62285714,
+    "Max of Females":91.5,
+    "StdDev of Females":30.13925138
+  },
+  {
+    "Week Number":"24",
+    "Average of Females":22.13028571,
+    "Max of Females":120,
+    "StdDev of Females":24.26152091
+  },
+  {
+    "Week Number":"25",
+    "Average of Females":120.2777143,
+    "Max of Females":857,
+    "StdDev of Females":184.4326759
+  },
+  {
+    "Week Number":"26",
+    "Average of Females":92.19914286,
+    "Max of Females":313.91,
+    "StdDev of Females":84.79838037
+  },
+  {
+    "Week Number":"27",
+    "Average of Females":140.2588571,
+    "Max of Females":484,
+    "StdDev of Females":108.4026354
+  },
+  {
+    "Week Number":"28",
+    "Average of Females":133.3317143,
+    "Max of Females":371,
+    "StdDev of Females":109.3071762
+  },
+  {
+    "Week Number":"29",
+    "Average of Females":73.86342857,
+    "Max of Females":240.98,
+    "StdDev of Females":57.68256551
+  },
+  {
+    "Week Number":"30",
+    "Average of Females":75.78914286,
+    "Max of Females":240.98,
+    "StdDev of Females":59.66632065
+  },
+  {
+    "Week Number":"31",
+    "Average of Females":66.30828571,
+    "Max of Females":388,
+    "StdDev of Females":85.93721438
+  },
+  {
+    "Week Number":"32",
+    "Average of Females":33.76914286,
+    "Max of Females":174.32,
+    "StdDev of Females":39.18480268
+  },
+  {
+    "Week Number":"33",
+    "Average of Females":37.98,
+    "Max of Females":223,
+    "StdDev of Females":57.37680257
+  },
+  {
+    "Week Number":"34",
+    "Average of Females":27.3878125,
+    "Max of Females":138,
+    "StdDev of Females":33.07074721
+  },
+  {
+    "Week Number":"35",
+    "Average of Females":18.41555556,
+    "Max of Females":66,
+    "StdDev of Females":21.33162339
+  },
+  {
+    "Week Number":"36",
+    "Average of Females":9.3932,
+    "Max of Females":52,
+    "StdDev of Females":10.13133288
+  },
+  {
+    "Week Number":"37",
+    "Average of Females":4.768888889,
+    "Max of Females":11,
+    "StdDev of Females":3.150370349
+  },
+  {
+    "Week Number":"38",
+    "Average of Females":12.43842105,
+    "Max of Females":109,
+    "StdDev of Females":25.3162737
+  },
+  {
+    "Week Number":"Grand Total",
+    "Average of Females":53.87524476,
+    "Max of Females":857,
+    "StdDev of Females":85.17031471
+  }
+]},{
+"SiteId":"GPK",
+"properties":
+[
+  {
+    "Week Number":"21",
+    "Average of Females":3.126785714,
+    "Max of Females":18.25,
+    "StdDev of Females":6.446840773
+  },
+  {
+    "Week Number":"22",
+    "Average of Females":3.343103448,
+    "Max of Females":23,
+    "StdDev of Females":5.08593516
+  },
+  {
+    "Week Number":"23",
+    "Average of Females":3.062647059,
+    "Max of Females":24.99,
+    "StdDev of Females":4.82395494
+  },
+  {
+    "Week Number":"24",
+    "Average of Females":5.875428571,
+    "Max of Females":24.99,
+    "StdDev of Females":6.616446684
+  },
+  {
+    "Week Number":"25",
+    "Average of Females":57.91212121,
+    "Max of Females":832,
+    "StdDev of Females":169.3959285
+  },
+  {
+    "Week Number":"26",
+    "Average of Females":14.21542857,
+    "Max of Females":97,
+    "StdDev of Females":20.23766354
+  },
+  {
+    "Week Number":"27",
+    "Average of Females":15.01571429,
+    "Max of Females":43,
+    "StdDev of Females":12.54710308
+  },
+  {
+    "Week Number":"28",
+    "Average of Females":30.77971429,
+    "Max of Females":129,
+    "StdDev of Females":30.00196273
+  },
+  {
+    "Week Number":"29",
+    "Average of Females":11.65857143,
+    "Max of Females":31.99,
+    "StdDev of Females":10.21693408
+  },
+  {
+    "Week Number":"30",
+    "Average of Females":8.900285714,
+    "Max of Females":28,
+    "StdDev of Females":8.15886075
+  },
+  {
+    "Week Number":"31",
+    "Average of Females":13.83184211,
+    "Max of Females":70,
+    "StdDev of Females":18.27879407
+  },
+  {
+    "Week Number":"32",
+    "Average of Females":14.83114286,
+    "Max of Females":98.9,
+    "StdDev of Females":22.67146844
+  },
+  {
+    "Week Number":"33",
+    "Average of Females":14.836,
+    "Max of Females":98.9,
+    "StdDev of Females":25.15633217
+  },
+  {
+    "Week Number":"34",
+    "Average of Females":10.9903125,
+    "Max of Females":77,
+    "StdDev of Females":16.58555055
+  },
+  {
+    "Week Number":"35",
+    "Average of Females":11.00571429,
+    "Max of Females":48,
+    "StdDev of Females":14.95865869
+  },
+  {
+    "Week Number":"36",
+    "Average of Females":6.385714286,
+    "Max of Females":31,
+    "StdDev of Females":9.770456765
+  },
+  {
+    "Week Number":"37",
+    "Average of Females":2.865,
+    "Max of Females":11,
+    "StdDev of Females":3.257190905
+  },
+  {
+    "Week Number":"38",
+    "Average of Females":4.103157895,
+    "Max of Females":16,
+    "StdDev of Females":5.066219336
+  },
+  {
+    "Week Number":"Grand Total",
+    "Average of Females":13.49410745,
+    "Max of Females":832,
+    "StdDev of Females":44.53256206
+  }
+]
+},{
+"SiteId":"Madison",
+"properties": [
+  {
+    "Week Number":"20",
+    "Average of Females":29.98285714,
+    "Max of Females":69.96,
+    "StdDev of Females":37.39519297
+  },
+  {
+    "Week Number":"21",
+    "Average of Females":32.07619048,
+    "Max of Females":498,
+    "StdDev of Females":108.3579942
+  },
+  {
+    "Week Number":"22",
+    "Average of Females":13.7125,
+    "Max of Females":79,
+    "StdDev of Females":19.66363419
+  },
+  {
+    "Week Number":"23",
+    "Average of Females":37.68285714,
+    "Max of Females":305,
+    "StdDev of Females":60.09911708
+  },
+  {
+    "Week Number":"24",
+    "Average of Females":56.59885714,
+    "Max of Females":196,
+    "StdDev of Females":53.58045521
+  },
+  {
+    "Week Number":"25",
+    "Average of Females":67.26628571,
+    "Max of Females":260,
+    "StdDev of Females":63.23407603
+  },
+  {
+    "Week Number":"26",
+    "Average of Females":101.6831429,
+    "Max of Females":606,
+    "StdDev of Females":118.0739787
+  },
+  {
+    "Week Number":"27",
+    "Average of Females":93.886,
+    "Max of Females":271,
+    "StdDev of Females":61.60600435
+  },
+  {
+    "Week Number":"28",
+    "Average of Females":113.4448571,
+    "Max of Females":344,
+    "StdDev of Females":93.3646858
+  },
+  {
+    "Week Number":"29",
+    "Average of Females":90.59228571,
+    "Max of Females":318,
+    "StdDev of Females":84.79540547
+  },
+  {
+    "Week Number":"30",
+    "Average of Females":57.506,
+    "Max of Females":298,
+    "StdDev of Females":63.55794541
+  },
+  {
+    "Week Number":"31",
+    "Average of Females":66.35514286,
+    "Max of Females":449,
+    "StdDev of Females":96.03449584
+  },
+  {
+    "Week Number":"32",
+    "Average of Females":41.20114286,
+    "Max of Females":158,
+    "StdDev of Females":35.9605299
+  },
+  {
+    "Week Number":"33",
+    "Average of Females":101.49,
+    "Max of Females":656,
+    "StdDev of Females":162.545895
+  },
+  {
+    "Week Number":"34",
+    "Average of Females":64.5525,
+    "Max of Females":543,
+    "StdDev of Females":114.5214988
+  },
+  {
+    "Week Number":"35",
+    "Average of Females":46.16714286,
+    "Max of Females":287,
+    "StdDev of Females":68.72765931
+  },
+  {
+    "Week Number":"36",
+    "Average of Females":38.67730769,
+    "Max of Females":124,
+    "StdDev of Females":34.07715582
+  },
+  {
+    "Week Number":"37",
+    "Average of Females":44.91666667,
+    "Max of Females":567,
+    "StdDev of Females":109.0049814
+  },
+  {
+    "Week Number":"38",
+    "Average of Females":84.60647059,
+    "Max of Females":516,
+    "StdDev of Females":164.9865404
+  },
+  {
+    "Week Number":"39",
+    "Average of Females":600.2371429,
+    "Max of Females":1500,
+    "StdDev of Females":415.6951451
+  },
+  {
+    "Week Number":"40",
+    "Average of Females":122.76,
+    "Max of Females":274.66,
+    "StdDev of Females":126.9370631
+  },
+  {
+    "Week Number":"41",
+    "Average of Females":51.75,
+    "Max of Females":104,
+    "StdDev of Females":47.98176737
+  },
+  {
+    "Week Number":"Grand Total",
+    "Average of Females":71.7947619,
+    "Max of Females":1500,
+    "StdDev of Females":116.4363201
+  }
+  ]
+},
+{
+"SiteId":"Oak Grove",
+"properties":
+[
+  {
+    "Week Number":"21",
+    "Average of Females":7.292857143,
+    "Max of Females":35.5,
+    "StdDev of Females":12.62445976
+  },
+  {
+    "Week Number":"22",
+    "Average of Females":11.18928571,
+    "Max of Females":183,
+    "StdDev of Females":35.42085167
+  },
+  {
+    "Week Number":"23",
+    "Average of Females":14.48352941,
+    "Max of Females":274,
+    "StdDev of Females":46.67753862
+  },
+  {
+    "Week Number":"24",
+    "Average of Females":29.31171429,
+    "Max of Females":180,
+    "StdDev of Females":35.51009877
+  },
+  {
+    "Week Number":"25",
+    "Average of Females":138.6628125,
+    "Max of Females":790,
+    "StdDev of Females":215.0974145
+  },
+  {
+    "Week Number":"26",
+    "Average of Females":96.43911765,
+    "Max of Females":597,
+    "StdDev of Females":148.5359006
+  },
+  {
+    "Week Number":"27",
+    "Average of Females":169.5514286,
+    "Max of Females":736,
+    "StdDev of Females":185.8382346
+  },
+  {
+    "Week Number":"28",
+    "Average of Females":238.266,
+    "Max of Females":1352,
+    "StdDev of Females":295.7499946
+  },
+  {
+    "Week Number":"29",
+    "Average of Females":137.5745714,
+    "Max of Females":493.32,
+    "StdDev of Females":147.110119
+  },
+  {
+    "Week Number":"30",
+    "Average of Females":104.1569697,
+    "Max of Females":493,
+    "StdDev of Females":126.6225597
+  },
+  {
+    "Week Number":"31",
+    "Average of Females":131.3897368,
+    "Max of Females":976,
+    "StdDev of Females":268.4119378
+  },
+  {
+    "Week Number":"32",
+    "Average of Females":43.45885714,
+    "Max of Females":728.33,
+    "StdDev of Females":122.2345652
+  },
+  {
+    "Week Number":"33",
+    "Average of Females":26.52114286,
+    "Max of Females":179,
+    "StdDev of Females":43.03292848
+  },
+  {
+    "Week Number":"34",
+    "Average of Females":22.356875,
+    "Max of Females":148,
+    "StdDev of Females":37.87934039
+  },
+  {
+    "Week Number":"35",
+    "Average of Females":9.5525,
+    "Max of Females":40.67,
+    "StdDev of Females":10.3918724
+  },
+  {
+    "Week Number":"36",
+    "Average of Females":6.783214286,
+    "Max of Females":23,
+    "StdDev of Females":6.83533307
+  },
+  {
+    "Week Number":"37",
+    "Average of Females":7.66,
+    "Max of Females":66,
+    "StdDev of Females":12.3181438
+  },
+  {
+    "Week Number":"38",
+    "Average of Females":12.224,
+    "Max of Females":72,
+    "StdDev of Females":21.72520762
+  },
+  {
+    "Week Number":"Grand Total",
+    "Average of Females":72.16715532,
+    "Max of Females":1352,
+    "StdDev of Females":155.240002
+  }
+]
+},{
+"SiteId":"Osgood",
+"properties":
+[
+  {
+    "Week Number":"21",
+    "Average of Females":0.342857143,
+    "Max of Females":3.2,
+    "StdDev of Females":1.007905261
+  },
+  {
+    "Week Number":"22",
+    "Average of Females":3.298275862,
+    "Max of Females":20,
+    "StdDev of Females":5.469272653
+  },
+  {
+    "Week Number":"23",
+    "Average of Females":6.012352941,
+    "Max of Females":21,
+    "StdDev of Females":7.015732994
+  },
+  {
+    "Week Number":"24",
+    "Average of Females":9.808285714,
+    "Max of Females":51,
+    "StdDev of Females":13.76808938
+  },
+  {
+    "Week Number":"25",
+    "Average of Females":12.13441176,
+    "Max of Females":60.66,
+    "StdDev of Females":18.80840901
+  },
+  {
+    "Week Number":"26",
+    "Average of Females":7.596764706,
+    "Max of Females":38,
+    "StdDev of Females":11.96366107
+  },
+  {
+    "Week Number":"27",
+    "Average of Females":8.099142857,
+    "Max of Females":32,
+    "StdDev of Females":8.121240622
+  },
+  {
+    "Week Number":"28",
+    "Average of Females":17.92428571,
+    "Max of Females":39,
+    "StdDev of Females":12.83730187
+  },
+  {
+    "Week Number":"29",
+    "Average of Females":6.600285714,
+    "Max of Females":31.66,
+    "StdDev of Females":7.732890977
+  },
+  {
+    "Week Number":"30",
+    "Average of Females":13.168,
+    "Max of Females":51,
+    "StdDev of Females":13.18373258
+  },
+  {
+    "Week Number":"31",
+    "Average of Females":6.677894737,
+    "Max of Females":33,
+    "StdDev of Females":8.11113021
+  },
+  {
+    "Week Number":"32",
+    "Average of Females":10.42228571,
+    "Max of Females":83.23,
+    "StdDev of Females":20.9639691
+  },
+  {
+    "Week Number":"33",
+    "Average of Females":12.11941176,
+    "Max of Females":94,
+    "StdDev of Females":24.97494598
+  },
+  {
+    "Week Number":"34",
+    "Average of Females":2.971724138,
+    "Max of Females":35,
+    "StdDev of Females":6.781111934
+  },
+  {
+    "Week Number":"35",
+    "Average of Females":5.821071429,
+    "Max of Females":46.61,
+    "StdDev of Females":9.335908906
+  },
+  {
+    "Week Number":"36",
+    "Average of Females":7.678214286,
+    "Max of Females":46.61,
+    "StdDev of Females":12.02150051
+  },
+  {
+    "Week Number":"37",
+    "Average of Females":3.1825,
+    "Max of Females":9.6,
+    "StdDev of Females":3.044637818
+  },
+  {
+    "Week Number":"38",
+    "Average of Females":4.1405,
+    "Max of Females":17.5,
+    "StdDev of Females":5.513829002
+  },
+  {
+    "Week Number":"Grand Total",
+    "Average of Females":8.002108014,
+    "Max of Females":94,
+    "StdDev of Females":13.05684204
+  }
+]
+},{
+"SiteId":"Park Drive",
+"properties":
+[
+  {
+    "Week Number":"21",
+    "Average of Females":8.477142857,
+    "Max of Females":45.75,
+    "StdDev of Females":15.97055459
+  },
+  {
+    "Week Number":"22",
+    "Average of Females":4.851785714,
+    "Max of Females":32,
+    "StdDev of Females":8.190220932
+  },
+  {
+    "Week Number":"23",
+    "Average of Females":8.315294118,
+    "Max of Females":26.67,
+    "StdDev of Females":8.214085181
+  },
+  {
+    "Week Number":"24",
+    "Average of Females":16.52114286,
+    "Max of Females":52,
+    "StdDev of Females":11.5698225
+  },
+  {
+    "Week Number":"25",
+    "Average of Females":53.77857143,
+    "Max of Females":326,
+    "StdDev of Females":72.67309342
+  },
+  {
+    "Week Number":"26",
+    "Average of Females":43.48142857,
+    "Max of Females":207,
+    "StdDev of Females":42.22682324
+  },
+  {
+    "Week Number":"27",
+    "Average of Females":64.30428571,
+    "Max of Females":153,
+    "StdDev of Females":33.95036379
+  },
+  {
+    "Week Number":"28",
+    "Average of Females":81.158,
+    "Max of Females":248,
+    "StdDev of Females":60.88178221
+  },
+  {
+    "Week Number":"29",
+    "Average of Females":45.15885714,
+    "Max of Females":184,
+    "StdDev of Females":39.15618941
+  },
+  {
+    "Week Number":"30",
+    "Average of Females":35.33342857,
+    "Max of Females":84,
+    "StdDev of Females":26.40793831
+  },
+  {
+    "Week Number":"31",
+    "Average of Females":42.53447368,
+    "Max of Females":219,
+    "StdDev of Females":53.24294572
+  },
+  {
+    "Week Number":"32",
+    "Average of Females":32.54371429,
+    "Max of Females":155.86,
+    "StdDev of Females":38.9903556
+  },
+  {
+    "Week Number":"33",
+    "Average of Females":36.162,
+    "Max of Females":260,
+    "StdDev of Females":57.92109322
+  },
+  {
+    "Week Number":"34",
+    "Average of Females":24.06875,
+    "Max of Females":91,
+    "StdDev of Females":22.89362677
+  },
+  {
+    "Week Number":"35",
+    "Average of Females":35.47714286,
+    "Max of Females":106,
+    "StdDev of Females":32.94521163
+  },
+  {
+    "Week Number":"36",
+    "Average of Females":24.37037037,
+    "Max of Females":107,
+    "StdDev of Females":24.96253061
+  },
+  {
+    "Week Number":"37",
+    "Average of Females":13.06178571,
+    "Max of Females":20.75,
+    "StdDev of Females":6.824522262
+  },
+  {
+    "Week Number":"38",
+    "Average of Females":14.3745,
+    "Max of Females":51,
+    "StdDev of Females":14.13506296
+  },
+  {
+    "Week Number":"Grand Total",
+    "Average of Females":33.98351211,
+    "Max of Females":326,
+    "StdDev of Females":43.0481631
+  }
+]
+},{
+
+"SiteId":"Prairiewood",
+"properties":
+[
+  {
+    "Week Number":"20",
+    "Average of Females":29.98285714,
+    "Max of Females":69.96,
+    "StdDev of Females":37.39519297
+  },
+  {
+    "Week Number":"21",
+    "Average of Females":32.07619048,
+    "Max of Females":498,
+    "StdDev of Females":108.3579942
+  },
+  {
+    "Week Number":"22",
+    "Average of Females":13.7125,
+    "Max of Females":79,
+    "StdDev of Females":19.66363419
+  },
+  {
+    "Week Number":"23",
+    "Average of Females":37.68285714,
+    "Max of Females":305,
+    "StdDev of Females":60.09911708
+  },
+  {
+    "Week Number":"24",
+    "Average of Females":56.59885714,
+    "Max of Females":196,
+    "StdDev of Females":53.58045521
+  },
+  {
+    "Week Number":"25",
+    "Average of Females":67.26628571,
+    "Max of Females":260,
+    "StdDev of Females":63.23407603
+  },
+  {
+    "Week Number":"26",
+    "Average of Females":101.6831429,
+    "Max of Females":606,
+    "StdDev of Females":118.0739787
+  },
+  {
+    "Week Number":"27",
+    "Average of Females":93.886,
+    "Max of Females":271,
+    "StdDev of Females":61.60600435
+  },
+  {
+    "Week Number":"28",
+    "Average of Females":113.4448571,
+    "Max of Females":344,
+    "StdDev of Females":93.3646858
+  },
+  {
+    "Week Number":"29",
+    "Average of Females":90.59228571,
+    "Max of Females":318,
+    "StdDev of Females":84.79540547
+  },
+  {
+    "Week Number":"30",
+    "Average of Females":57.506,
+    "Max of Females":298,
+    "StdDev of Females":63.55794541
+  },
+  {
+    "Week Number":"31",
+    "Average of Females":66.35514286,
+    "Max of Females":449,
+    "StdDev of Females":96.03449584
+  },
+  {
+    "Week Number":"32",
+    "Average of Females":41.20114286,
+    "Max of Females":158,
+    "StdDev of Females":35.9605299
+  },
+  {
+    "Week Number":"33",
+    "Average of Females":101.49,
+    "Max of Females":656,
+    "StdDev of Females":162.545895
+  },
+  {
+    "Week Number":"34",
+    "Average of Females":64.5525,
+    "Max of Females":543,
+    "StdDev of Females":114.5214988
+  },
+  {
+    "Week Number":"35",
+    "Average of Females":46.16714286,
+    "Max of Females":287,
+    "StdDev of Females":68.72765931
+  },
+  {
+    "Week Number":"36",
+    "Average of Females":38.67730769,
+    "Max of Females":124,
+    "StdDev of Females":34.07715582
+  },
+  {
+    "Week Number":"37",
+    "Average of Females":44.91666667,
+    "Max of Females":567,
+    "StdDev of Females":109.0049814
+  },
+  {
+    "Week Number":"38",
+    "Average of Females":84.60647059,
+    "Max of Females":516,
+    "StdDev of Females":164.9865404
+  },
+  {
+    "Week Number":"39",
+    "Average of Females":600.2371429,
+    "Max of Females":1500,
+    "StdDev of Females":415.6951451
+  },
+  {
+    "Week Number":"40",
+    "Average of Females":122.76,
+    "Max of Females":274.66,
+    "StdDev of Females":126.9370631
+  },
+  {
+    "Week Number":"41",
+    "Average of Females":51.75,
+    "Max of Females":104,
+    "StdDev of Females":47.98176737
+  },
+  {
+    "Week Number":"Grand Total",
+    "Average of Females":71.7947619,
+    "Max of Females":1500,
+    "StdDev of Females":116.4363201
+  }
+]
+},
+{
+"SiteId":"Red River Zoo",
+"properties":
+[
+  {
+    "Week Number":"21",
+    "Average of Females":7.452857143,
+    "Max of Females":48.75,
+    "StdDev of Females":17.18880403
+  },
+  {
+    "Week Number":"22",
+    "Average of Females":2.889655172,
+    "Max of Females":26,
+    "StdDev of Females":5.771673119
+  },
+  {
+    "Week Number":"23",
+    "Average of Females":4.359117647,
+    "Max of Females":25.67,
+    "StdDev of Females":6.346452776
+  },
+  {
+    "Week Number":"24",
+    "Average of Females":7.707714286,
+    "Max of Females":58,
+    "StdDev of Females":11.66726872
+  },
+  {
+    "Week Number":"25",
+    "Average of Females":17.2775,
+    "Max of Females":84,
+    "StdDev of Females":19.48494059
+  },
+  {
+    "Week Number":"26",
+    "Average of Females":15.8425,
+    "Max of Females":84,
+    "StdDev of Females":20.92419667
+  },
+  {
+    "Week Number":"27",
+    "Average of Females":15.76,
+    "Max of Females":42,
+    "StdDev of Females":9.999072898
+  },
+  {
+    "Week Number":"28",
+    "Average of Females":29.64514286,
+    "Max of Females":153.31,
+    "StdDev of Females":35.89253506
+  },
+  {
+    "Week Number":"29",
+    "Average of Females":14.25828571,
+    "Max of Females":153.31,
+    "StdDev of Females":25.68569841
+  },
+  {
+    "Week Number":"30",
+    "Average of Females":14.9,
+    "Max of Females":99,
+    "StdDev of Females":17.90362665
+  },
+  {
+    "Week Number":"31",
+    "Average of Females":10.14578947,
+    "Max of Females":86,
+    "StdDev of Females":16.56183461
+  },
+  {
+    "Week Number":"32",
+    "Average of Females":6.007272727,
+    "Max of Females":24,
+    "StdDev of Females":6.179862596
+  },
+  {
+    "Week Number":"33",
+    "Average of Females":10.05029412,
+    "Max of Females":66,
+    "StdDev of Females":14.4324339
+  },
+  {
+    "Week Number":"34",
+    "Average of Females":5.099285714,
+    "Max of Females":23,
+    "StdDev of Females":6.149821394
+  },
+  {
+    "Week Number":"35",
+    "Average of Females":11.46321429,
+    "Max of Females":55.26,
+    "StdDev of Females":14.24790824
+  },
+  {
+    "Week Number":"36",
+    "Average of Females":11.66928571,
+    "Max of Females":55.26,
+    "StdDev of Females":16.78054449
+  },
+  {
+    "Week Number":"37",
+    "Average of Females":4.167857143,
+    "Max of Females":11,
+    "StdDev of Females":3.168543721
+  },
+  {
+    "Week Number":"38",
+    "Average of Females":5.125,
+    "Max of Females":21,
+    "StdDev of Females":5.345005047
+  },
+  {
+    "Week Number":"39",
+    "Average of Females":7.857142857,
+    "Max of Females":23,
+    "StdDev of Females":7.603257447
+  },
+  {
+    "Week Number":"40",
+    "Average of Females":3.428571429,
+    "Max of Females":8,
+    "StdDev of Females":2.992052966
+  },
+  {
+    "Week Number":"Grand Total",
+    "Average of Females":10.28006431,
+    "Max of Females":153.31,
+    "StdDev of Females":17.18047253
+  }
+]
+}]

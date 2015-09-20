@@ -1,0 +1,285 @@
+<HTML>
+<HEAD>
+ <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+
+	<script type="text/javascript" src="data\traps.js"></script>
+	<script type="text/javascript" src="data\TrapNormalizations.json"></script>
+  <style>
+    #map {
+      width: 100%;
+      height: 600px;
+    }
+
+    .info {
+      padding: 6px 8px;
+      font: 14px/16px Arial, Helvetica, sans-serif;
+      background: white;
+      background: rgba(255,255,255,0.8);
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      border-radius: 5px;
+    }
+    .info h4 {
+      margin: 0 0 5px;
+      color: #777;
+    }
+
+    .legend {
+      text-align: left;
+      line-height: 18px;
+      color: #555;
+    }
+    .legend i {
+      width: 18px;
+      height: 18px;
+      float: left;
+      margin-right: 8px;
+      opacity: 0.7;
+    }
+  </style>
+  <!--<h1>Hello World</h1>-->
+  <script> //alert(trapDataRanges.week23Avg);
+  //console.log(trapDataRanges.week23Avg.toString());
+  //console.log(trapDataRanges2[1].toString());
+  //console.log(trapNs[0].SiteId.toString());
+
+  //console.log(trapNs[0].properties[0]);  //Object {Week Number: "21", Average of Females: 6.494642857, Max of Females: 35, StdDev of Females: 12.72647677}
+  //console.log(trapNs[0].properties[0]["Week Number"]); 21
+  //console.log(trapNs[0].properties[0]["Average of Females"]);
+  //console.log(trapNs[0].properties[0]["Max of Females"]);
+  //console.log(trapNs[0].properties[0]["StdDev of Females"]);
+
+
+  var b = trapNs[0];
+  //console.log(b.properties[0]["StdDev of Females"]);
+  //console.log(b.SiteId);
+
+  var Tinfo = trapNs;
+
+  Tinfo.data = function (trapname) {
+    for (i = 0, len = Tinfo.length; i < len; i++) {
+      if (Tinfo[i].SiteId.toString() == trapname.toString())
+      {
+      //console.log("FOUND IT!!");
+      return Tinfo[i];
+      }
+      }
+      console.log("Didn't find IT!!" + trapname);
+    return null;
+  };
+  /*
+  Tinfo.weeklydata = function(trapname,weeknumb) 	{
+      for (i = 0, len = Tinfo.length; i < len; i++) {
+      if (Tinfo[i].SiteId.toString() == trapname.toString())
+      {
+        for (j = 0, len2 = Tinfo[i].properties.length; j < len2; j++) {
+          if (Tinfo[i].properties[j] != null){
+          if (Tinfo[i].properties[j]["Week Number"].toString() == weeknumb.toString())
+          {
+            console.log("FOUND IT!!");
+            return Tinfo[i].properties[j];
+          }
+          }
+          }
+      }
+    }
+    console.log("Didn't find IT!!" + trapname + "|" + weeknumb);
+    return null;
+    }*/
+
+
+  //console.log(Tinfo.data('25andaHalfSt').properties[0]["StdDev of Females"]);  works
+  //console.log(Tinfo.weeklydata('25andaHalfSt','25')["Average of Females"]);
+  //Tinfo.data
+
+  </script>
+  <!--<h2> Sub heading</h2>-->
+  <div class="vc_row wpb_row section vc_row-fluid grid_section" style=" padding-top:92px; text-align:left;"><div class="trapwrap">
+  <div id="map">
+
+  <script>
+
+  //this.innerHTML += trapDataRanges.week20Avg;
+
+  function style(feature) {
+   return {
+       fillColor: getColor(feature.properties.density),
+       weight: 2,
+       opacity: 1,
+       color: 'black',
+       dashArray: '3',
+       fillOpacity: 1
+   };
+  }
+  var map = L.map('map', {scrollWheelZoom:false}).setView([46.8541979, -96.8285138 ], 12);
+
+   L.tileLayer('https://b.tiles.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.jpg?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IlhHVkZmaW8ifQ.hAMX5hSW-QnTeRCMAy9A8Q', {
+    maxZoom: 18,
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+      '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+      'Imagery � <a href="http://mapbox.com">Mapbox</a>',
+    id: 'mapbox.streets'
+  }).addTo(map);
+
+
+  // control that shows state info on hover
+  var info = L.control();
+
+  info.onAdd = function (map) {
+    this._div = L.DomUtil.create('div', 'info');
+    this.update();
+    return this._div;
+  };
+
+  info.update = function (props) {
+    if (props && props.Address) {
+       console.log("finding: " + props.Address + "|" + Tinfo.data(props.Address).properties["3"]["Average of Females"]);
+      }
+
+    this._div.innerHTML = '<h4>Fargo Mosquito Density</h4>' +  (props ?
+      '<b>Trap #' + props.Trap_Numbe + " " + props.Address  + '</b><br />' + props.Count + ' count' + '<br /><u>History:</u>'  + //<b>Address: ' + props.Address +
+      '<br />' + Math.round(Tinfo.data(props.Address).properties["3"]["Average of Females"]) + ' Average' 	+
+      '<br />' + Math.round(Tinfo.data(props.Address).properties["3"]["StdDev of Females"]) + ' Std Dev' +
+      '<br />' + Math.round(Tinfo.data(props.Address).properties["3"]["Max of Females"]) + ' Max of Females'
+      : 'Hover over a Station');
+
+  };
+
+  info.addTo(map);
+
+
+  // get color depending on population density value
+  function getColor(d) {
+    return d > 100 ? '#800026' :
+           d > 50  ? '#BD0026' :
+           d > 40  ? '#E31A1C' :
+           d > 30  ? '#FC4E2A' :
+           d > 20   ? '#FD8D3C' :
+           d > 10   ? '#FEB24C' :
+           d > 5   ? '#FED976' :
+                      '#FFEDA0';
+  }
+
+    // get color depending on population density value
+  function getColor2(d,avg, StdDev, max) {
+    return d > avg + max ? '#800026' :
+        d > avg + StdDev ? '#BD0026' :
+           d > avg ? '#E31A1C' :
+           d = avg  ? '#FC4E2A' :
+           d < avg  ? '#FFEDA0' :
+           //d > 20   ? '#FD8D3C' :
+          // d > 10   ? '#FEB24C' :
+         //  d > 5   ? '#FED976' :
+                      '#FFEDA0';
+  }
+
+  function style(feature) {
+    return {
+      weight: 5,
+      opacity: 10,
+      color: 'white',
+      dashArray: '3',
+      fillOpacity: 0.7,
+      //fillColor: getColor(feature.properties.Count)
+      fillColor: getColor2(feature.properties.Count,
+      Tinfo.data(feature.properties.Address).properties["3"]["Average of Females"],
+      Tinfo.data(feature.properties.Address).properties["3"]["StdDev of Females"],
+      Tinfo.data(feature.properties.Address).properties["3"]["Max of Females"]
+      )
+    };
+  }
+
+  function highlightFeature(e) {
+    var layer = e.target;
+
+    layer.setStyle({
+      weight: 2,
+      color: '#666',
+      dashArray: '',
+      fillOpacity: 0.7
+    });
+
+    if (!L.Browser.ie && !L.Browser.opera) {
+      layer.bringToFront();
+    }
+
+    info.update(layer.feature.properties);
+  }
+
+  var geojson;
+
+  function resetHighlight(e) {
+    geojson.resetStyle(e.target);
+    info.update();
+  }
+
+  function zoomToFeature(e) {
+    map.fitBounds(e.target.getBounds());
+  }
+
+  function onEachFeature(feature, layer) {
+    layer.on({
+      mouseover: highlightFeature,
+      mouseout: resetHighlight,
+      click: zoomToFeature
+    });
+  }
+
+  geojson = L.geoJson(trapData, {
+    style: style,
+    onEachFeature: onEachFeature
+  }).addTo(map);
+
+  map.attributionControl.addAttribution('Mosquito Population Data <a href="http://census.gov/">US Census Bureau</a>');
+
+  var myIcon = L.icon({
+    iconUrl: 'http://veitchdigital.com/my-icon.png',
+    iconSize: [38, 48],
+    iconAnchor: [22, 94],
+    popupAnchor: [-3, -76],
+  });
+
+  L.marker([46.86801164,-96.82485872 ],  {icon: myIcon}).addTo(map)
+      .bindPopup('User-Reported, 9/19/2015<b><br>1</b></br>');
+
+    L.marker([46.88801164,-96.82485872 ]).addTo(map)
+    .bindPopup('Madison <a href="http://veitchdigital.com/bitetracker/trap-count/trap-1/">Historical Data</a>');
+      L.marker([46.8521074,-96.8262146 ]).addTo(map)
+    .bindPopup('Prairiewood <a href="http://openstreetmap.org">Historical Data</a>');
+      L.marker([46.8503295,-96.8996452 ]).addTo(map)
+    .bindPopup('Charleswood <a href="http://openstreetmap.org">Historical Data</a>');
+      L.marker([46.9076032,-96.7791346 ]).addTo(map)
+    .bindPopup('22nd Ave N <a href="http://veitchdigital.com/bitetracker/trap-count/trap-2/">Historical Data</a>');
+      L.marker([46.8923755,-96.7956759]).addTo(map)
+    .bindPopup('12th Ave N <a href="http://openstreetmap.org">Historical Data</a>');
+    L.marker([46.8991214,-96.8561431 ]).addTo(map)
+    .bindPopup('GPK <a href="http://openstreetmap.org">Historical Data</a>');;
+    L.marker([46.8816819,-96.7714064 ]).addTo(map)
+    .bindPopup('Oak Grove <a href="http://openstreetmap.org">Historical Data</a>');
+      L.marker([46.8534994,-96.869518 ]).addTo(map)
+    .bindPopup('49th St  <a href="http://openstreetmap.org">Historical Data</a>');
+        L.marker([46.8609755,-96.8079322 ]).addTo(map)
+    .bindPopup('16 1/2 St  <a href="http://openstreetmap.org">Historical Data</a>');
+      L.marker([46.8452059,-96.8521554 ]).addTo(map)
+    .bindPopup('Red River Zoo <a href="http://openstreetmap.org">Historical Data</a>');
+      L.marker([46.8414522,-96.8119624 ]).addTo(map)
+    .bindPopup('25th 1/2 St <a href="http://openstreetmap.org">Historical Data</a>');
+      L.marker([46.8429516,-96.787492 ]).addTo(map)
+    .bindPopup('Fargo Country Club <a href="http://openstreetmap.org">Historical Data</a>');
+      L.marker([46.8282979,-96.816472]).addTo(map)
+    .bindPopup('34 1/2 Ave <a href="http://openstreetmap.org">Historical Data</a>');
+      L.marker([46.8136261,-96.8885773]).addTo(map)
+    .bindPopup('Osgood" <a href="http://openstreetmap.org">Historical Data</a>');
+      L.marker([46.82200612,-96.91932133 ]).addTo(map)
+    .bindPopup('Eagle Run <a href="http://openstreetmap.org">Historical Data</a>');
+      L.marker([46.8760425,-96.9031788 ]).addTo(map)
+    .bindPopup('Park Drive <a href="http://openstreetmap.org">Historical Data</a>');
+
+
+  </script>
+  </div>
+  </div></div>
+
+
+ </BODY>
+ </HTML>
