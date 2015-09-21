@@ -1,4 +1,4 @@
-#Bite Tracker - Cass County Vector Control App
+#Bite Tracker - Cass County Vector Control
 
 ![Bite Tracker Logo](https://raw.githubusercontent.com/rveitch/bitetracker/master/Images/ICONS/BT-LOGO-2_400.png)
 
@@ -7,9 +7,9 @@
 - Ryan Veitch
 - Grant Swenson
 
-###Preview:###
+###App Preview:###
 
-![Bite Tracker Preview](https://raw.githubusercontent.com/rveitch/bitetracker/master/Images/bite-tracker-preview.gif)
+![Bite Tracker App Preview](https://raw.githubusercontent.com/rveitch/bitetracker/master/Images/bite-tracker-preview.gif)
 
 **Vision:**
 - Crowdsourcing mosquito pain index to assist CCVC in application planning
