@@ -1,5 +1,5 @@
 #Bite Tracker - Fargo Vector Control App
-Civic Hackathon Weekend 2015
+###Civic Hackathon Weekend 2015##
 
 **Developers Members**
 - Ryan Veitch
