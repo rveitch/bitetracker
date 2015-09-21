@@ -1,6 +1,8 @@
 #Bite Tracker - Fargo Vector Control App
 ##Civic Hackathon Weekend 2015
 
+![Bite Tracker Logo](https://raw.githubusercontent.com/rveitch/bitetracker/master/Images/ICONS/BT-LOGO-2_400.png)
+
 **Developer Team:**
 - Ryan Veitch
 - Grant Swenson
