@@ -1,8 +1,8 @@
 #Bite Tracker - Cass County Vector Control App
-##Civic Hackathon Weekend 2015
 
 ![Bite Tracker Logo](https://raw.githubusercontent.com/rveitch/bitetracker/master/Images/ICONS/BT-LOGO-2_400.png)
 
+##Civic Hackathon Weekend 2015
 **Developer Team:**
 - Ryan Veitch
 - Grant Swenson
