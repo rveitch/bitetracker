@@ -1,5 +1,5 @@
-# bitetracker
-Civic Hackathon Weekend 2015
+#Bite Tracker - Fargo Vector Control App
+###Civic Hackathon Weekend 2015
 
 ##Demo Site:
 http://veitchdigital.com/bitetracker
